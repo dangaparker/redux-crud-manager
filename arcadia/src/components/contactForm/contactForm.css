@@ -1,0 +1,15 @@
+.red-text{
+    color: red;
+}
+
+.submit-btn{
+    outline: none;
+    color: white;
+    background-color: #008cd6;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}

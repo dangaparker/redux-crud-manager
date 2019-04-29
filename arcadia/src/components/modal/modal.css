@@ -1,0 +1,56 @@
+.crud-modal {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100vw;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.crud-modal .content {
+    background-color: #fff;
+    border-radius: 5px;
+    height: fit-content;
+    margin: 5% auto 0;
+    padding: 18px;
+    width: 40%;
+}
+
+.crud-modal .content label {
+    color: #777;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.crud-modal .content input, select {
+    background-color: white;
+    color: #777;
+    height: 36px;
+    width: 280px;
+}
+
+.crud-modal .content input:focus, .crud-modal .content select:focus {
+    box-shadow: 0 0 10px #008cd6;
+    outline: none !important;
+}
+
+.crud-modal .content select:focus>option:hover {
+    background-color: #008cd6 !important;
+}
+
+.crud-modal .content .title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 47px;
+}
+.crud-modal .content form div{
+    margin-bottom: 10px;
+}
+
+.crud-modal .content .title svg {
+    color: #bac2c7;
+    cursor: pointer;
+    float: right;
+}

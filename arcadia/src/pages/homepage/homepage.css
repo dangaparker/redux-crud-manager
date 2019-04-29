@@ -1,0 +1,64 @@
+.page-content{
+    background-color: #6d96a7;
+    ;
+}
+.contact-table{
+    display: flex;
+    justify-content: center
+}
+
+.ReactTable{
+    width: 70%;
+    background-color: gainsboro;
+    border: solid gray 2px;
+    box-shadow: 2px 2px 2px gray;
+    height: 33em;
+    margin-bottom: 9em;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+h1{
+    margin: 0;
+    padding: 1.5em 0 1em 0;
+    color: #eaeaea;
+    text-shadow: 1px 1px 1px black;
+}
+.create-btn{
+    outline: none;
+    color: #eaeaea;
+    font-weight: 600;
+    background-color: #f37821;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 15px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px gray
+}
+
+.actions-btn-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.actions-btn-group svg:first-of-type{
+    color: #008dd6;
+    cursor: pointer;
+}
+
+.actions-btn-group svg:last-of-type{
+    color: #ce3f3f;
+    cursor: pointer;
+}
+
+.ReactTable .rt-thead{
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 5px
+}
