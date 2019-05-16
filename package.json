@@ -1,7 +1,7 @@
 {
-  "name": "arcadia-exercise",
+  "name": "redux-crud",
   "version": "0.0.1",
-  "description": "React/Redux Exercise for Arcadia Power",
+  "description": "React/Redux crud table",
   "private": true,
   "license": "ISC",
   "dependencies": {
